@@ -101,7 +101,7 @@ def text():
 def radar():
     os.system('columns=324');
     global userIn
-    imgRad = 'INSERT_URL_HERE'
+    imgRad = 'INSERT_URL_HERE'#Replace INSERT_URL_HERE with the URL for the map you want it to display recomendation is wunderground
     downDir = './temp/radar/'
     os.system('rm /*.gif');
     os.system('rm /*.png');
@@ -125,7 +125,7 @@ def setup():
     os.system('sudo apt-get install ansiweather');
     os.system('sudo apt-get install wget');
     os.system('sudo apt-get install jp2a');
-    os.system('sudo apt-get install imagemagic');
+    os.system('sudo apt-get install imagemagick');
     os.system('mkdir ./temp/')
     os.system('mkdir ./temp/radar');
     print('done');
